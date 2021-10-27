@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Red Hat Display", sans-serif;
+    
+}
+
+.background {
+    border: 1px solid rgb(255, 255, 255);
+    height: 600px;
+}
+
+.background img {
+    height: 300px;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px 10px #888888;
+
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 16px;
+
+    
+}
+
+.heading { 
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+    margin-top: 30px;
+    background-color:#f8f9fe;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.heading p {
+    color:rgb(29, 2, 2);
+    margin-top: 16px;
+}
+
+.annual-plan {
+    width: 100%;
+    display: flex;
+    background-color: #f8f9fe;
+    margin-top: 16px;
+}
+
+.Suvaline {
+    justify-content: center;
+}
+
+.h2 {
+    
+    text-align: center;
+}
+
+.submit{
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    box-shadow: 0px 12px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cancel{
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    background-color: hsl(245, 60%, 85%);
+    color: hsl(225, 100%, 98%);
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    box-shadow: 0px 12px 0px rgba(0, 0, 0, 0.05);
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
